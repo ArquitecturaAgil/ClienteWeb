@@ -1,0 +1,17 @@
+
+<div class="col-md-4 col-md-offset-4" >
+    <form>
+        <div class="form-group">
+            <label for="cedula">Cedula</label>
+            <input ng-model="cedula" type="text" class="form-control" id="cedula" placeholder="Cedula">
+        </div>
+        <div class="form-group">
+            <label for="prioridad">Selecione Prioridad:</label>
+            <select ng-model="prioridad" class="form-control" id="prioridad">
+                <option >Alta</option>
+                <option>Normal</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-success" ng-click="send(cedula,prioridad)">Enviar</button>
+    </form>
+</div>
