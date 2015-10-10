@@ -10,7 +10,7 @@ var mainApp = ng.module('mainApp', [
                         templateUrl: 'src/templates/emergencias.tpl.html',
                         controller: 'emergenciasCtrl',
                         controllerAs: 'ctrl'
-                });
+                }).otherwise('/emergencias');
             }]);
 
  })(window.angular);
