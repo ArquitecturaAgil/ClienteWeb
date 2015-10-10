@@ -1,2 +1,2 @@
 # ClienteWeb
-ClienteWeb para experimentacion
+ClienteWeb para experimentacion de latencia
