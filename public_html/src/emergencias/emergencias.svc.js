@@ -3,7 +3,7 @@
     
     mod.service('EmergenciasService', ['Restangular', function(Restangular){
             this.getHistorialByUser = function(numero, prioridad, tipoDoc){
-                return Restangular.one("historial", numero).get({prioridad: prioridad, tipoDoc: tipoDoc});                
+                return Restangular.one("historiaClinica", numero).customGET(prioridad);                
             };
     }]);
 })(window.angular);

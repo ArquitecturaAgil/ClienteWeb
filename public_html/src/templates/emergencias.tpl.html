@@ -16,8 +16,8 @@
         <div class="form-group">
             <label for="prioridad">Selecione Prioridad:</label>
             <select ng-model="prioridad" class="form-control" id="prioridad">
-                <option >Alta</option>
-                <option>Normal</option>
+                <option value="alta">Alta</option>
+                <option value="normal">Normal</option>
             </select>
         </div>
         <button type="submit" class="btn btn-success" ng-click="send(numero, prioridad,tipodoc)">Enviar</button>
