@@ -26,4 +26,8 @@
 
 <div ng-show="show" class="col-md-6 col-md-offset-2" >
     <h1>Historia Clinica</h1>
+    <h3><strong>Paciente:</strong> {{historial.documento.nombre}}</h3>
+    <h3><strong>Historial Clinico:</strong> {{historial.documento.documento}}</h3>
+    
+    <button type="submit" class="btn btn-success" ng-click="back()">Atras</button>
 </div> 
